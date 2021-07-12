@@ -18,8 +18,7 @@ class Header extends React.Component {
        
         {/* TODO: if the user is logged in, render the `LogoutButton` - if the user is logged out, render the `LoginButton` */}
         {
-          this.props.auth0.isAuthenticated &&
-            <LogoutButton />
+      this.props.auth0.isAuthenticated  ? <LogoutButton/> :<LoginButton/>
             
         }
 
