@@ -1,3 +1,10 @@
 .jumbotron{
   margin-bottom: 0;
 }
+
+.btn-warning {
+  color: #212529;
+  background-color:#7ab2cc;
+  border-color: #7ab2cc;
+}
+
