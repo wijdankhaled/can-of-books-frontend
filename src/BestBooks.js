@@ -5,7 +5,7 @@ import './BestBooks.css';
 import { withAuth0 } from '@auth0/auth0-react';
 import axios from 'axios'
 import Card from 'react-bootstrap/Card'
-import AddBook from './component /AddBook';
+// import AddBook from './component /AddBook';
 import { Button, Form , Modal} from 'react-bootstrap/';
 class MyFavoriteBooks extends React.Component {
   constructor(props){
@@ -138,11 +138,11 @@ this.setState({
           </Modal.Footer>
         </Modal>
         </div>
-
+{/* 
         <AddBook
         
         
-        />
+        /> */}
       </Jumbotron>
     )
   }
